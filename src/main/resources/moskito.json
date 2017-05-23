@@ -1,0 +1,17 @@
+{
+    "@pluginsConfig": {
+        "@plugins": [
+            {
+                "name": "RESTRemoteCentralConnector",
+                "configurationName": "rest-connector",
+                "className": "org.moskito.central.connectors.rest.RESTConnector"
+            },
+            {
+                "name": "MoskitoAnalyzePlugin",
+                "configurationName": "moskito-analyze-plugin",
+                "className": "net.anotheria.moskito.extensions.analyze.MoskitoAnalyzePlugin"
+            }
+
+        ]
+    }
+}
